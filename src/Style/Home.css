@@ -1,0 +1,84 @@
+.Home {
+  background: rgb(0, 0, 50);
+  height: 100vh;
+  width: 80vw;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Corben:700');
+
+h1 {
+	font-family: 'Corben', cursive;
+	font-size: 3rem;
+	color: white;
+	letter-spacing: 0.1rem;
+	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+}
+
+
+h3 {
+	font-family: 'Corben', cursive;
+	font-size: 1rem;
+	color: white;
+	letter-spacing: 0.1rem;
+	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+}
+
+.hero {
+	background-image: radial-gradient(#253854 80%, #0c0c0c 100%);
+	min-height: 100vh;
+	min-height: 10rem;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+  padding: 30px;
+	align-content: center;
+	justify-content: center;
+}
+
+.snow {
+	position: absolute;
+	min-width: 100vw;
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.snow .svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#snow-top-layer {
+	will-change: transform;
+	transform: translateY(-1768px);
+	animation: fall 22.5s infinite linear;
+}
+
+#snow-bottom-layer {
+	will-change: transform;
+	transform: translateY(-1768px);
+	animation: fall 45s infinite linear;
+}
+
+@keyframes fall {
+	
+	100% {
+		transform: translateY(0);
+	}
+	
+}
+
+.welcome {
+  width: 60vw;
+  margin: 5rem;
+  padding: 1rem;
+
+}
+
+.opcoes {
+  margin-top: 2rem;
+  color: white;
+}

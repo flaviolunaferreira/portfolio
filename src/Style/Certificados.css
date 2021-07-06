@@ -1,0 +1,64 @@
+.Certificados {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: rgb(0, 0, 50);
+  color: white;
+}
+
+.slider {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: rgb(0, 255, 255);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: rgb(0, 255, 255);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.25);
+}
+
+.text {
+  width: 100vw;
+  height: 30vh;
+  z-index: 200;
+
+
+}

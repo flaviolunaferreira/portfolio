@@ -1,0 +1,10 @@
+.cubo {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: aqua;
+  border: 0.4rem gray;
+  border-style: double;
+  border-radius: 50%;
+}
+
+

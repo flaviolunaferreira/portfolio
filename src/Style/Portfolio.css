@@ -1,0 +1,11 @@
+.Portfolio {
+  background: rgb(0, 0, 50);
+  color: white;
+  height: 100vh;
+  width: 80vw;
+  overflow-y: auto;
+}
+
+.title {
+  padding: 1rem;
+}
